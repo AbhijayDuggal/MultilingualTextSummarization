@@ -8,7 +8,7 @@ This project is a multilingual abstractive text summarization system I developed
 
 With the ever-growing volume of content in regional and global languages, I set out to build a unified summarizer that could handle multiple scripts, sentence structures, and vocabularies—all within a single model. Unlike extractive methods, this project focuses on **abstractive summarization**, where the output is generated from scratch to capture the core meaning of the input.
 
-## 📁 Dataset
+## Dataset
 
 I used the **ILSUM 2.0** dataset, which consists of ~107,000 news articles and their human-written summaries across four languages.
 
@@ -19,7 +19,7 @@ Each sample includes:
 
 🔗 Dataset source: ILSUM on HuggingFace : https://huggingface.co/datasets/ILSUM/ILSUM-2.0
 
-## 🧠 Model Architecture
+## Model Architecture
 
 The summarizer is based on the **mT5-small** model. I trained and evaluated three variants:
 
@@ -44,6 +44,6 @@ I evaluated all models using **ROUGE** metrics (ROUGE-1, ROUGE-2, ROUGE-L).
 
 ✅ The mixed-language variant achieved the best overall performance.
 
-## 🧪 Example Output
+##  Example Output
 <img width="1744" height="163" alt="image" src="https://github.com/user-attachments/assets/c45a9d70-3aa4-43ce-8adf-f63e30cae2c7" />
 
